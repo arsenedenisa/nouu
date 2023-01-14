@@ -1,0 +1,135 @@
+    body{background-image: url('perfect.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .bla{
+        background-color: thistle;
+        text-align: left;
+        width: 100%;
+        border-style: double;
+        border-color: brown;
+
+    }
+    code {
+      font-family: Consolas,"courier new";
+      color: crimson;
+      background-color: #f1f1f1;
+      padding: 2px;
+      text-align: left;
+      font-size: 105%;
+    }
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 25%;
+    }
+    form{
+    border-style: outset;
+    padding:50px 50px 35px 200px;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    * {
+box-sizing: border-box;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+font-size: 20px;
+text-align: center;
+}
+
+.flex-item-left {
+background-color: #f1f1f1;
+padding: 0px;
+flex: 50%;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+.flex-item-left {
+flex: 100%;
+}
+}
+table.t1 {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  .check {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  td{
+  text-align: left;
+  }
+  tr{
+  text-align: left;
+  }
+  th.tt{
+   background-color: #e495e4;
+  }
+  table.t2 {
+  table-layout: fixed;
+    width: 34%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    margin-left: auto;
+  }
+  .mess{
+    border-radius: 25px;
+    padding: 20px;
+    width: auto;
+    height: 60px;
+    font-size: 25px;
+    background-color: burlywood;
+}
+.GFG {
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.flex-container2 {
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 24px;
+    }
+
+    .flex-item-left2 {
+    background-color: #f1f1f1;
+    padding: 4px;
+    flex: 20%;
+    }
+
+
+    /* Responsive layout - makes a one column-layout instead of a two-column layout */
+    @media (max-width: 800px) {
+    .flex-item-left2 {
+        flex: 20%;
+    }
+    }

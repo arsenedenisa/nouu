@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="org.css">
+</head>
+<body>
+    <h1 class="bla">Filters</h1>
+
+<form>
+    <div class="flex-container">
+<code>
+    <div class="flex-item-left"><h4>
+      <label for="Averagestar">Average star rating:</label>
+      <input type="radio" name="stars" value="1">1
+    <input type="radio" name="stars" value="2">2
+    <input type="radio" name="stars" value="3">3
+    <input type="radio" name="stars" value="4">4
+    <input type="radio" name="stars" value="5">5
+    </h4></div>
+    
+    <div class="flex-item-left"><h4>
+      <label for="FilterSupplier">Supplier:</label><br>
+      <input type="checkbox" name="Supplier" value="Aliexpress">Aliexpress<br>
+      <input type="checkbox" name="Supplier" value="Amazon">Amazon<br>
+	<input type="checkbox" name="Supplier" value="Amazon">Amazon<br>
+	<input type="checkbox" name="Supplier" value="Shopify">Shopify<br>
+	<input type="checkbox" name="Supplier" value="Wix">Wix<br>
+	<input type="checkbox" name="Supplier" value="Squarespace">Squarespace<br>
+    </h4></div>
+	<div class="flex-item-left"><h4>
+      <label for="Year">Year :</label>
+      <input type="number" name="Year" />
+    </h4></div>
+    <div class="flex-item-left"><h4>
+      <label for="Category">Category:</label><br>
+      <input type="checkbox" name="category" value="Books">Books<br>
+      <input type="checkbox" name="category" value="Arts and Crafts">Arts and Crafts<br>
+      <input type="checkbox" name="category" value="Beauty and Personal Care">Beauty and Personal Care<br>
+      <input type="checkbox" name="category" value="Movies&TV">Movies&TV<br>
+      <input type="checkbox" name="category" value="Music&CDs">Music&CDs<br>
+      <input type="checkbox" name="category" value="Women's fashion">Women's fashion<br>
+    </h4></div>
+    <div class="flex-item-left"><h4>
+      <label for="Price">Price : </label>
+      <input type="range" min="0" max="1000" step="5" />
+    </h4></div>
+  <div class="flex-item-left"><h4>
+    <label for="condition">Condition:</label><br>
+    <input type="checkbox" name="condition" value="New">New <br>
+    <input type="checkbox" name="condition" value="used">Used<br>
+  </h4></div>
+
+      <button type="submit">Submit</button>
+</code>
+    </div>
+</form>
+</body>
+</html>
